@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="main-container">
+        
+        <nav>
+            <div class="logo">{<span>U</span>}nusual</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://github.com/jerzyszajner">About</a></li>
+                <li>
+                    <div class="player">
+                        <button id="toggleStart">Start</button>
+                        <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="1">
+                        <button id="muteToggle">Mute</button>
+                        <audio id="myAudio" preload="none">
+                            <source src="https://listenssl.ibizaglobalradio.com:8024/ibizaglobalradio.mp3"
+                                type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <main class="container">
+            <div class="container-button">
+                <button class="mysterious-button">Once you press play, you'll never walk away!</button>
+            </div>
+        </main>
+    </div>
+
+    <footer class="custom-footer">
+        
+        <p>&copy; 2024 by Jerzy Szajner. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

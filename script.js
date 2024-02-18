@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
             button.textContent = "Are you sure?";
         });
         button.addEventListener('mouseleave', () => {
-            button.textContent = "Once you press play, you'll never walk away!"; // Revert text on mouse leave
-        });
+            button.innerHTML = 'Once you press <span class="mysterious-button-highlight">play</span>, you\'ll never walk away!';
+        });        
     }
 
     // Adding audio player functionality

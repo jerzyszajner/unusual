@@ -88,6 +88,11 @@ nav ul li a:hover {
     color: #fff;
 }
 
+.mysterious-button-highlight {
+    color: coral;
+}
+
+
 /* Additional containers */
 .container-button, .container-video {
     display: flex;
